@@ -156,7 +156,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="pt-BR" className={`${inter.variable} ${playfair.variable} overflow-x-hidden`}>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <script
@@ -164,7 +164,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="antialiased">
+      <body className="antialiased overflow-x-hidden">
         {children}
         <WhatsAppButton />
       </body>
