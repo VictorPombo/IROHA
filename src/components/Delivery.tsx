@@ -37,9 +37,8 @@ export default function Delivery() {
               className="flex flex-col items-center justify-center h-full p-8 rounded-sm bg-[#121212] border border-[#ea1d2c]/20 hover:border-[#ea1d2c] transition-colors group"
             >
               <div className="w-16 h-16 rounded-full bg-[#ea1d2c]/10 flex items-center justify-center mb-6 group-hover:bg-[#ea1d2c] transition-colors">
-                <svg className="w-8 h-8 text-[#ea1d2c] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="currentColor">
-                  {/* Simplistic fork/knife or delivery bag to represent iFood */}
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" />
+                <svg className="w-8 h-8 text-[#ea1d2c] group-hover:text-white transition-colors" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.428 1.67c-4.65 0-7.184 4.149-7.184 6.998 0 2.294 2.2 3.299 4.25 3.299l-.006-.006c4.244 0 7.184-3.854 7.184-6.998 0-2.29-2.175-3.293-4.244-3.293zm11.328 0c-4.65 0-7.184 4.149-7.184 6.998 0 2.294 2.2 3.299 4.25 3.299l-.006-.006C21.061 11.96 24 8.107 24 4.963c0-2.29-2.18-3.293-4.244-3.293zM14.172 14.52l2.435 1.834c-2.17 2.07-6.124 3.525-9.353 3.17A8.913 8.913 0 01.23 14.541H0a9.598 9.598 0 008.828 7.758c3.814.24 7.323-.905 9.947-3.13l-.004.007 1.08 2.988 1.555-7.623-7.234-.02Z"/>
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-[#ea1d2c] transition-colors">Pedir no iFood</h3>
@@ -57,10 +56,9 @@ export default function Delivery() {
               className="flex flex-col items-center justify-center h-full p-8 rounded-sm bg-[#121212] border border-[#FFD000]/20 hover:border-[#FFD000] transition-colors group"
             >
               <div className="w-16 h-16 rounded-full bg-[#FFD000]/10 flex items-center justify-center mb-6 group-hover:bg-[#FFD000] transition-colors">
-                <svg className="w-8 h-8 text-[#FFD000] group-hover:text-black transition-colors" viewBox="0 0 24 24" fill="currentColor">
-                  {/* Delivery scooter or bag */}
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" />
-                </svg>
+                <span className="text-3xl font-black text-[#FFD000] group-hover:text-black tracking-tighter" style={{ fontFamily: 'Arial, sans-serif' }}>
+                  99
+                </span>
               </div>
               <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-[#FFD000] transition-colors">Pedir no 99Food</h3>
               <p className="text-sm text-center text-[var(--color-text-muted)]">Aproveite cupons e promoções exclusivas no app 99.</p>
