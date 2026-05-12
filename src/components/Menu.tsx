@@ -70,13 +70,13 @@ const MENU_ITEMS: Record<string, MenuItem[]> = {
     { name: "Sashimi Especial (25 fatias)", desc: "Atum, salmão, peixe branco e kani", price: "R$ 69,90", image: "/images/real/real-8.jpg", badge: "Especial" },
   ],
   Combinados: [
-    { name: "Iroha 1 Pessoa (18 un.)", desc: "6 sashimis, 4 sushis, 2 jhous, 2 kappas, 2 uramaki califórnias e 2 salmonmakis", price: "R$ 54,90", image: "/images/real/real-2.jpg" },
-    { name: "Iroha 2 Pessoas (32 un.)", desc: "2 sashimis, 6 sushis, 4 salmonmakis, 4 kappas, 4 uramaki califórnias e 2 jhous", price: "R$ 96,00", image: "/images/real/real-3.jpg", badge: "Favorito" },
-    { name: "Iroha 3 Pessoas (42 un.)", desc: "16 sashimis, 8 sushis, 4 salmonmakis, 3 kappas, 3 jhous, 3 uramaki califórnias, 3 uramaki skin e 3 hot holl", price: "R$ 126,00", image: "/images/real/real-4.jpg" },
+    { name: "Iroha 1 Pessoa (18 un.)", desc: "6 sashimis, 4 sushis, 2 jhous, 2 kappas, 2 uramaki califórnias e 2 salmonmakis", price: "R$ 54,90", image: "/images/combo-small.png" },
+    { name: "Iroha 2 Pessoas (32 un.)", desc: "2 sashimis, 6 sushis, 4 salmonmakis, 4 kappas, 4 uramaki califórnias e 2 jhous", price: "R$ 96,00", image: "/images/combo-medium.png", badge: "Favorito" },
+    { name: "Iroha 3 Pessoas (42 un.)", desc: "16 sashimis, 8 sushis, 4 salmonmakis, 3 kappas, 3 jhous, 3 uramaki califórnias, 3 uramaki skin e 3 hot holl", price: "R$ 126,00", image: "/images/combo-large.png" },
     { name: "Iroha Super Especial (52 un.)", desc: "20 sashimis, 10 sushis, 4 jhous, 4 kappas, 4 salmonmakis, 4 hot holl, 4 uramaki califórnias e 2 uramaki skin", price: "R$ 156,00", image: "/images/real/destaque-combo.png", badge: "Premium" },
     { name: "Iroha (66 un.)", desc: "24 sashimis, 16 sushis, 6 jhous, 4 tekkas, 4 kappas, 4 uramaki califórnias, 4 salmonmakis e 4 hot holl", price: "R$ 159,00", image: "/images/sushi-combo.png" },
     { name: "Iroha Salmão 1 Pessoa (17 un.)", desc: "6 sashimis, 4 sushis, 4 salmonmakis e 3 jhous", price: "R$ 74,90", image: "/images/salmon-sashimi.png" },
-    { name: "Iroha Salmão 2 Pessoas (32 un.)", desc: "12 sashimis, 8 sushis, 4 uramaki salmão, 4 salmonmakis e 4 jhous", price: "R$ 96,00", image: "/images/nigiri.png" },
+    { name: "Iroha Salmão 2 Pessoas (32 un.)", desc: "12 sashimis, 8 sushis, 4 uramaki salmão, 4 salmonmakis e 4 jhous", price: "R$ 96,00", image: "/images/combo-salmon.png" },
     { name: "Iroha Salmão 3 Pessoas (42 un.)", desc: "16 sashimis, 10 sushis, 6 salmonmakis e 4 uramaki salmão", price: "R$ 126,00", image: "/images/real/real-8.jpg" },
   ],
   "Pratos Quentes": [
